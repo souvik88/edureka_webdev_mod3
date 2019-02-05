@@ -1,0 +1,53 @@
+body {
+    background-color: fuchsia;
+}
+
+table {
+    width: 50%;
+}
+
+table th {
+    background-color: darkgray;
+}
+
+table th, td {
+    border: 3px solid rgb(68, 248, 68);
+}
+
+caption {
+    font-weight: bold;
+}
+
+img {
+    width: 200px; /* resizing width */
+    height: 300px; /* resizing height */
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    opacity: 0.8; /* I used opacity just to show the table and paragraphs behind the image */
+
+    /*
+    I could not understand this question. Because using 'left' and 'top' puts the image right on top of the table and paragraphs, that looks weird. However, using 'right' and 'bottom' pushes the image off the table and paragraphs. Since, the question is asking for 'left' and 'top', so I commented it out.
+
+    right: 300px;
+    bottom: 100px;
+    */
+}
+
+.first-para {
+    border: 3px solid black;
+    font-size: 20px;
+    color: navy;
+}
+
+.second-para {
+    border: 3px dotted black;
+    font-size: 20px;
+    color: navy;
+}
+
+.third-para {
+    border: 3px dashed black;
+    font-size: 20px;
+    color: navy;
+}
