@@ -27,7 +27,10 @@ img {
     opacity: 0.8; /* I used opacity just to show the table and paragraphs behind the image */
 
     /*
-    I could not understand this question. Because using 'left' and 'top' puts the image right on top of the table and paragraphs, that looks weird. However, using 'right' and 'bottom' pushes the image off the table and paragraphs. Since, the question is asking for 'left' and 'top', so I commented it out.
+    I could not understand this question. Because using 'left' and 'top' 
+    puts the image right on top of the table and paragraphs, that looks weird. 
+    However, using 'right' and 'bottom' pushes the image off the table and paragraphs. 
+    Since, the question is asking for 'left' and 'top', so I commented it out.
 
     right: 300px;
     bottom: 100px;
